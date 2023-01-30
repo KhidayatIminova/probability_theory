@@ -1,6 +1,9 @@
 # Задача 1. Случайная непрерывная величина А имеет равномерное распределение на промежутке (200,800].
 # Найти ее среднее значение и дисперсию
 
+import os         
+os.system('cls')
+
 a=200
 b=800
 
@@ -12,8 +15,3 @@ def GetMeanAndVariance(a,b):
 
 GetMeanAndVariance(a,b)
 
-# def GetMeanAndVariance(a,b):
-
-#     return f'На промежутке ({a};{b}]\nСреднее значение: M(A) = {(a+b)/2:.2f}\nДисперсия: D(A)={((b-a)**2)/12:.2f}'
-
-# print(GetMeanAndVariance(200,800))
