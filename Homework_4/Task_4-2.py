@@ -8,6 +8,9 @@ os.system('cls')
 a=0.5
 d=0.2
 
+# M(X) = (a+b)/2
+# D(X) = (b-a)/12
+
 def GetRightAndMean(a,d):
     b=a+(12*d)**(1/2)
     m=(a+b)/2

@@ -7,6 +7,9 @@ os.system('cls')
 a=200
 b=800
 
+# M(X) = (a+b)/2
+# D(X) = (b-a)/12
+
 def GetMeanAndVariance(a,b):
 
     m=(a+b)/2
